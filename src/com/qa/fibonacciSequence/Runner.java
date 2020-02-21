@@ -3,8 +3,8 @@ package com.qa.fibonacciSequence;
 public class Runner {
 
 	public static void main(String[] args) {
-		System.out.println(sequence(8));
-
+		System.out.println(sequence(50));
+System.out.println(fibonacci(50));
 	}
 	public static int sequence (int pos) {
 		int j = 0;
